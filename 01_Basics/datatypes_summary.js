@@ -27,3 +27,28 @@ const myFunction = function() {
 console.log(typeof(myFunction))
 console.log(typeof(heroes))
 console.log(typeof(myObj))
+
+/////////////
+
+// Stack(Primitive) Heap (non-primitive)
+
+let a = "priyanka"
+
+let b=a
+b="pirii"
+
+console.log(a)
+console.log(b)
+
+let userOne = {
+    email: "parora0711@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "2021pgcaca099"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
